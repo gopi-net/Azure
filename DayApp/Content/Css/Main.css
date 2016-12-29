@@ -68,3 +68,14 @@ table{
 	margin-top: 15px;
 	color: #7F8C8D;
 }
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video{
+    width:80% !important;
+    height:80% !important;
+    margin-left:10% !important;
+}
+.embed-responsive-16by9{
+    margin-bottom:-100px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin:0 auto !important;
+}

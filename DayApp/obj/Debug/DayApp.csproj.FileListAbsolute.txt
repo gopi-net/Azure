@@ -31,3 +31,36 @@ E:\Azure Code\Sites\DayApp\DayApp\bin\System.Web.Mvc.xml
 E:\Azure Code\Sites\DayApp\DayApp\obj\Debug\DayApp.csprojResolveAssemblyReference.cache
 E:\Azure Code\Sites\DayApp\DayApp\obj\Debug\DayApp.dll
 E:\Azure Code\Sites\DayApp\DayApp\obj\Debug\DayApp.pdb
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\csc.exe
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\vbc.exe
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\VBCSCompiler.exe
+D:\Net\Azure\Site\Azure\DayApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Net\Azure\Site\Azure\DayApp\bin\DayApp.dll.config
+D:\Net\Azure\Site\Azure\DayApp\bin\DayApp.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\DayApp.pdb
+D:\Net\Azure\Site\Azure\DayApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Helpers.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Mvc.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Razor.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.Deployment.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.Razor.dll
+D:\Net\Azure\Site\Azure\DayApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Razor.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.Deployment.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Webpages.Razor.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Helpers.xml
+D:\Net\Azure\Site\Azure\DayApp\bin\System.Web.Mvc.xml
+D:\Net\Azure\Site\Azure\DayApp\obj\Debug\DayApp.csprojResolveAssemblyReference.cache
+D:\Net\Azure\Site\Azure\DayApp\obj\Debug\DayApp.dll
+D:\Net\Azure\Site\Azure\DayApp\obj\Debug\DayApp.pdb

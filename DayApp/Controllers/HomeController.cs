@@ -13,5 +13,13 @@ namespace DayApp.Controllers
         {
             return View();
         }
+        public ActionResult Photos()
+        {
+            return View();
+        }
+        public ActionResult Videos()
+        {
+            return View();
+        }
     }
 }

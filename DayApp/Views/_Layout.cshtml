@@ -29,21 +29,12 @@
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
-                    <ul role="menu" class="dropdown-menu">
-                        <li><a href="#">Inbox</a></li>
-                        <li><a href="#">Drafts</a></li>
-                        <li><a href="#">Sent Items</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Trash</a></li>
-                    </ul>
-                </li>
+                <li class="active gopich"><a href="/Home/Index" id="navLink1">Home</a></li>
+                <li class="gopich"><a href="/Home/Photos" id="navLink2">Images</a></li>
+                <li class="gopich"><a href="/Home/Videos" id="navLink3">Videos</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Login</a></li>
+                <li class="gopich"><a href="#" id="navLink4">Login</a></li>
             </ul>
         </div>
     </nav>
@@ -63,5 +54,31 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        $("li #navLink1").click(function () {
+            $(this).parent().addClass('active');
+            $('#navLink2').parent().removeClass('active');
+            $('#navLink3').parent().removeClass('active');
+            $('#navLink4').parent().removeClass('active');
+        });
+        $("li #navLink2").click(function () {
+            $(this).parent().addClass('active');
+            $('#navLink1').parent().removeClass('active');
+            $('#navLink3').parent().removeClass('active');
+            $('#navLink4').parent().removeClass('active');
+        });
+        $("li #navLink3").click(function () {
+            $(this).parent().addClass('active');
+            $('#navLink1').parent().removeClass('active');
+            $('#navLink2').parent().removeClass('active');
+            $('#navLink4').parent().removeClass('active');
+        });
+        $("li #navLink4").click(function () {
+            $(this).parent().addClass('active');
+            $('#navLink2').parent().removeClass('active');
+            $('#navLink3').parent().removeClass('active');
+            $('#navLink1').parent().removeClass('active');
+        });
+    </script>
 </body>
 </html>
