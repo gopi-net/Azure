@@ -1,0 +1,69 @@
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Starting DiagnosticPlugin.exe DiagnosticPlugin-ShutdownEvent DiagnosticPlugin-TotalShutdownEvent -wadVer1v5
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Successfully saved IIS Directory state
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Starting DiagnosticsPlugin
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Emulator config file set to D:\Net\Azure\Site\Azure\DayApp.Azure\csx\Debug\roles\DayApp\approot\diagnostics.wadcfgx
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] DiagnosticsStoreRootPath set to: C:\Users\Laxmi Narayana\AppData\Local\dftmp\Resources\3b8df4ec-5b48-4f72-99e4-f49e2b65783b
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Loading config file: D:\Net\Azure\Site\Azure\DayApp.Azure\csx\Debug\roles\DayApp\approot\diagnostics.wadcfgx
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Config file to read: D:\Net\Azure\Site\Azure\DayApp.Azure\csx\Debug\roles\DayApp\approot\diagnostics.wadcfgx
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Checking VM Type
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Emulator config file set to D:\Net\Azure\Site\Azure\DayApp.Azure\csx\Debug\roles\DayApp\approot\diagnostics.wadcfgx
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Extension set to Emulator Mode
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Reading XML configuration file
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Bypassing private config decryption
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] WadCfg is provided in initial configuration. Using that to initialize Diagnostics.
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] <PublicConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+  <WadCfg>
+    <DiagnosticMonitorConfiguration overallQuotaInMB="4096">
+      <DiagnosticInfrastructureLogs scheduledTransferLogLevelFilter="Error" />
+      <Logs scheduledTransferPeriod="PT1M" scheduledTransferLogLevelFilter="Error" />
+      <Directories scheduledTransferPeriod="PT1M">
+        <IISLogs containerName="wad-iis-logfiles" />
+        <FailedRequestLogs containerName="wad-failedrequestlogs" />
+      </Directories>
+      <WindowsEventLog scheduledTransferPeriod="PT1M">
+        <DataSource name="Application!*[System[(Level=1 or Level=2 or Level=3)]]" />
+        <DataSource name="Windows Azure!*[System[(Level=1 or Level=2 or Level=3 or Level=4)]]" />
+      </WindowsEventLog>
+      <CrashDumps containerName="wad-crashdumps" dumpType="Mini">
+        <CrashDumpConfiguration processName="WaIISHost.exe" />
+        <CrashDumpConfiguration processName="WaWorkerHost.exe" />
+        <CrashDumpConfiguration processName="w3wp.exe" />
+      </CrashDumps>
+      <PerformanceCounters scheduledTransferPeriod="PT1M">
+        <PerformanceCounterConfiguration counterSpecifier="\Memory\Available MBytes" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\Web Service(_Total)\ISAPI Extension Requests/sec" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\Web Service(_Total)\Bytes Total/Sec" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\ASP.NET Applications(__Total__)\Requests/Sec" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\ASP.NET Applications(__Total__)\Errors Total/Sec" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\ASP.NET\Requests Queued" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\ASP.NET\Requests Rejected" sampleRate="PT3M" />
+        <PerformanceCounterConfiguration counterSpecifier="\Processor(_Total)\% Processor Time" sampleRate="PT3M" />
+      </PerformanceCounters>
+    </DiagnosticMonitorConfiguration>
+  </WadCfg>
+  <StorageAccount>devstoreaccount1</StorageAccount>
+</PublicConfig>
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Private setting is loaded
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Is config json/xml loaded
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:38] Checking if configuration needs to be fetched from the storage account and doing so if needed.
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:41] Successfully created checkpoint file C:\Users\Laxmi Narayana\AppData\Local\dftmp\Resources\3b8df4ec-5b48-4f72-99e4-f49e2b65783b\WAD0105\Configuration\Checkpoint.txt
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:41] Will use local resource directory C:\Users\Laxmi Narayana\AppData\Local\dftmp\Resources\3b8df4ec-5b48-4f72-99e4-f49e2b65783b\WAD0105
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:41] Will use endpoint https://core.windows.net for storage.
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Expanding path %SystemDrive%\inetpub\logs\LogFiles to C:\inetpub\logs\LogFiles
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Expanding path %SystemDrive%\inetpub\logs\FailedReqLogFiles to C:\inetpub\logs\FailedReqLogFiles
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Created IIS log watch item: "C:\inetpub\logs\LogFiles"
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Created IIS failed requests watch item: "C:\inetpub\logs\FailedReqLogFiles"
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Running in emulator mode, crash dumps not enabled
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:43] Checking to see if Application Insights extension needs to be configured.
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:27:44] In emulator mode and using devstore updating XStoreAccount info, command line args: -LocalPath "C:\Users\Laxmi Narayana\AppData\Local\dftmp\Resources\3b8df4ec-5b48-4f72-99e4-f49e2b65783b\WAD0105"  -ConfigFile "C:\Users\Laxmi Narayana\AppData\Local\dftmp\Resources\3b8df4ec-5b48-4f72-99e4-f49e2b65783b\WAD0105\Configuration\MaConfig.xml" -ShutDownEvent WADDM-ShutDown-519e844d46c049f4aa886fe802f256b0  -TotalShutDownEvent WADDM-TotalShutDown-519e844d46c049f4aa886fe802f256b0 -InitializedEvent WADM-StartUp-519e844d46c049f4aa886fe802f256b0 -parent 1188 -events -wadVer1v5 -UseProxyServer -XStoreAccounts WadAccount#true#devstoreaccount1#Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==#http://127.0.0.1:10002#http://127.0.0.1:10001#http://127.0.0.1:10000
+DiagnosticsPlugin.exe Error: 0 : [30-12-2016 08:28:14] Microsoft.Cis.Monitoring.Query.QueryException: ErrorFail
+   at Microsoft.Cis.Monitoring.Query.QueryLocalTable..ctor(String TableName, String TablePath)
+   at ApplicationInsightsExtension.MATableReader.ReadTableRecords(String tableName, String tablePath, DateTime startTime, DateTime endTime)
+   at Microsoft.Azure.Plugins.Diagnostics.dll.MAStatusWriter.UpdateStatusReport(Object sender, ElapsedEventArgs e)
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:28:44] MonAgentHost.exe started
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:28:44] DiagnoticsPlugin started.
+DiagnosticsPlugin.exe Information: 0 : [30-12-2016 08:28:44] DiagnoticsPlugin now waiting on events "DiagnosticPlugin-ShutdownEvent", "DiagnosticPlugin-TotalShutdownEvent" or "DiagnosticPlugin-RestartEvent".
+DiagnosticsPlugin.exe Error: 0 : [30-12-2016 08:28:44] Microsoft.Cis.Monitoring.Query.QueryException: ErrorFail
+   at Microsoft.Cis.Monitoring.Query.QueryLocalTable..ctor(String TableName, String TablePath)
+   at ApplicationInsightsExtension.MATableReader.ReadTableRecords(String tableName, String tablePath, DateTime startTime, DateTime endTime)
+   at Microsoft.Azure.Plugins.Diagnostics.dll.MAStatusWriter.UpdateStatusReport(Object sender, ElapsedEventArgs e)

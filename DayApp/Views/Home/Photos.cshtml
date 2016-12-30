@@ -1,20 +1,19 @@
-﻿
+﻿@model List<string>
+
 @{
     ViewBag.Title = "Photos";
     Layout = "~/Views/_Layout.cshtml";
 }
 
-<h2>Photos</h2>
+<h1 style="color: red;font-size: 5em;" class="text-center"> Happy Birthday Smily </h1>
+<div class="container">
 
-<div class="gopi">
-    <img src="~/Content/Images/Sonakshi-Sinha-002.jpg" class="img-responsive" />
+    @foreach (var item in Model)
+    {
+        <div class="gopi">
+            <img src="@Url.Content(item)" class="img-responsive" />
+        </div>
+        <h1 style="color: red;font-size: 5em;"> Happy Birthday Smily </h1>
+        <br />
+    }
 </div>
-<br />
-<div class="gopi">
-    <img src="~/Content/Images/Sonakshi-Sinha-002.jpg" class="img-responsive" />
-</div>
-<br />
-<div class="gopi">
-    <img src="~/Content/Images/Sonakshi-Sinha-002.jpg" class="img-responsive" />
-</div>
-<br />

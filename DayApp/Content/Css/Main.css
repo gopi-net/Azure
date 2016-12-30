@@ -79,3 +79,12 @@ table{
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
     margin:0 auto !important;
 }
+.row{
+    margin-left:-15px;
+    margin-right:-15px;
+}
+.video-promo {
+    max-width: 60em;
+    margin: 0 auto;
+    margin-bottom:80px;
+}
